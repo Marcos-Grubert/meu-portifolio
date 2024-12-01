@@ -1,0 +1,73 @@
+/* Reset de margens e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Estilo do menu lateral */
+  .sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    padding-top: 30px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilo da lista dentro do menu */
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Estilo para cada item da lista */
+  .sidebar ul li {
+    padding: 15px 20px;
+    text-align: left;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sidebar ul li:hover {
+    background-color: #444;
+  }
+  
+  /* Estilo dos links dentro do menu */
+  .sidebar ul li a {
+    text-decoration: none;
+    color: #ddd;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    transition: color 0.3s ease;
+  }
+  
+  .sidebar ul li a:hover {
+    color: #fff;
+  }
+  
+  .sidebar ul li a i {
+    margin-right: 10px;
+    font-size: 20px;
+  }
+  
+  /* Estilo do conteúdo principal */
+  .content {
+    margin-left: 250px; /* Espaço para o menu lateral */
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #333;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 18px;
+    color: #555;
+  }
+  
